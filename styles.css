@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 hr {
@@ -107,4 +108,18 @@ hr {
 }
 .off-white{
     background-color:var(--off-white);
+}
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color:white;
+    padding:2rem;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color:white;
+
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
