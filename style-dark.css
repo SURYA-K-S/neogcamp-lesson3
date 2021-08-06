@@ -1,13 +1,15 @@
-:root{
-    --black:#1F2937;
-    --primary-color:#34D399;
-    --off-black:#6B7280;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --black: #1F2937;
+    --primary-color: #34D399;
+    --off-black: #6B7280;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    margin:0px;
-    color:#ECFDF5;
+    margin: 0px;
+    color: #ECFDF5;
     background-color: var(--black);
 
 }
@@ -101,31 +103,37 @@ hr {
 }
 
 /* section */
-.section{
+.section {
     padding: 2rem;
 }
-.section h1{
+
+.section h1 {
     text-align: center;
-    
-}
-.off-white{
-    background-color:var(--off-black);
-}
-.footer{
-    background-color: var(--primary-color);
-    text-align: center;
-    color:white;
-    padding:2rem;
-    border-top-right-radius: 1rem;
-}
-.footer .link{
-    color:white;
 
 }
-.footer ul{
+
+.off-white {
+    background-color: var(--off-black);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+
+}
+
+.footer ul {
     padding-inline-start: 0px;
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
